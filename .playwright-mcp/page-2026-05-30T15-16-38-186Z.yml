@@ -1,0 +1,279 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "▲ ArtifactHub" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: ▲
+        - generic [ref=e6]: ArtifactHub
+      - navigation [ref=e7]:
+        - link "Browse" [ref=e8] [cursor=pointer]:
+          - /url: /?type=skill
+        - link "Publish" [ref=e9] [cursor=pointer]:
+          - /url: /submit
+        - button "Toggle dark mode" [ref=e10]: ☀️
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: 13 artifacts · local SQLite catalog
+        - heading "The marketplace for AI artifacts" [level=1] [ref=e15]
+        - paragraph [ref=e16]: Discover and publish skills, agents, MCP servers, and plugins. One click to install, fully self-hosted.
+        - generic [ref=e17]:
+          - generic [ref=e18]: ✦ Skills
+          - generic [ref=e19]: ◆ Agents
+          - generic [ref=e20]: ⬡ MCP Servers
+          - generic [ref=e21]: ◈ Plugins
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - textbox "Search skills, agents, MCPs, plugins…" [ref=e24]
+          - button "Search" [ref=e25]
+        - generic [ref=e26]:
+          - link "All 13" [ref=e27] [cursor=pointer]:
+            - /url: /
+          - link "Skills 4" [ref=e28] [cursor=pointer]:
+            - /url: "?type=skill"
+          - link "Agents 3" [ref=e29] [cursor=pointer]:
+            - /url: "?type=agent"
+          - link "MCP Servers 3" [ref=e30] [cursor=pointer]:
+            - /url: "?type=mcp"
+          - link "Plugins 3" [ref=e31] [cursor=pointer]:
+            - /url: "?type=plugin"
+          - generic [ref=e32]:
+            - generic [ref=e33]: Sort
+            - combobox [ref=e34]:
+              - option "Most downloaded" [selected]
+              - option "Top rated"
+              - option "Newest"
+              - option "Name A–Z"
+      - generic [ref=e35]:
+        - link "Plugin v3.1.0 Tailwind Snippets Drop-in command palette of polished Tailwind UI blocks. tailwind ui frontend @uiwizards ↓ 23.1k ★ 1.6k" [ref=e36] [cursor=pointer]:
+          - /url: /a/tailwind-snippets
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]: ◈
+              - text: Plugin
+            - generic [ref=e40]: v3.1.0
+          - heading "Tailwind Snippets" [level=3] [ref=e41]
+          - paragraph [ref=e42]: Drop-in command palette of polished Tailwind UI blocks.
+          - generic [ref=e43]:
+            - generic [ref=e44]: tailwind
+            - generic [ref=e45]: ui
+            - generic [ref=e46]: frontend
+          - generic [ref=e47]:
+            - generic [ref=e48]: "@uiwizards"
+            - generic [ref=e49]:
+              - generic "downloads" [ref=e50]: ↓ 23.1k
+              - generic "stars" [ref=e51]: ★ 1.6k
+        - link "Skill v2.3.0 Deep Research Fan-out web search, verify claims, synthesize a cited report. research web citations @anthropic ↓ 18.4k ★ 1.3k" [ref=e52] [cursor=pointer]:
+          - /url: /a/deep-research
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic [ref=e55]: ✦
+              - text: Skill
+            - generic [ref=e56]: v2.3.0
+          - heading "Deep Research" [level=3] [ref=e57]
+          - paragraph [ref=e58]: Fan-out web search, verify claims, synthesize a cited report.
+          - generic [ref=e59]:
+            - generic [ref=e60]: research
+            - generic [ref=e61]: web
+            - generic [ref=e62]: citations
+          - generic [ref=e63]:
+            - generic [ref=e64]: "@anthropic"
+            - generic [ref=e65]:
+              - generic "downloads" [ref=e66]: ↓ 18.4k
+              - generic "stars" [ref=e67]: ★ 1.3k
+        - link "MCP v1.0.6 Filesystem MCP Scoped read/write file access with allowlisted directories. files tools security @modelcontext ↓ 17.9k ★ 1.3k" [ref=e68] [cursor=pointer]:
+          - /url: /a/filesystem-mcp
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: ⬡
+              - text: MCP
+            - generic [ref=e72]: v1.0.6
+          - heading "Filesystem MCP" [level=3] [ref=e73]
+          - paragraph [ref=e74]: Scoped read/write file access with allowlisted directories.
+          - generic [ref=e75]:
+            - generic [ref=e76]: files
+            - generic [ref=e77]: tools
+            - generic [ref=e78]: security
+          - generic [ref=e79]:
+            - generic [ref=e80]: "@modelcontext"
+            - generic [ref=e81]:
+              - generic "downloads" [ref=e82]: ↓ 17.9k
+              - generic "stars" [ref=e83]: ★ 1.3k
+        - link "Plugin v2.0.0 Browser Pilot Drive a real browser for E2E testing and scraping. browser testing automation @playwrights ↓ 15.7k ★ 1.2k" [ref=e84] [cursor=pointer]:
+          - /url: /a/browser-pilot
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - generic [ref=e87]: ◈
+              - text: Plugin
+            - generic [ref=e88]: v2.0.0
+          - heading "Browser Pilot" [level=3] [ref=e89]
+          - paragraph [ref=e90]: Drive a real browser for E2E testing and scraping.
+          - generic [ref=e91]:
+            - generic [ref=e92]: browser
+            - generic [ref=e93]: testing
+            - generic [ref=e94]: automation
+          - generic [ref=e95]:
+            - generic [ref=e96]: "@playwrights"
+            - generic [ref=e97]:
+              - generic "downloads" [ref=e98]: ↓ 15.7k
+              - generic "stars" [ref=e99]: ★ 1.2k
+        - link "MCP v0.9.4 Postgres MCP Query and introspect Postgres safely from any model. database postgres sql @supabase-labs ↓ 14k ★ 1.1k" [ref=e100] [cursor=pointer]:
+          - /url: /a/postgres-mcp
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: ⬡
+              - text: MCP
+            - generic [ref=e104]: v0.9.4
+          - heading "Postgres MCP" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Query and introspect Postgres safely from any model.
+          - generic [ref=e107]:
+            - generic [ref=e108]: database
+            - generic [ref=e109]: postgres
+            - generic [ref=e110]: sql
+          - generic [ref=e111]:
+            - generic [ref=e112]: "@supabase-labs"
+            - generic [ref=e113]:
+              - generic "downloads" [ref=e114]: ↓ 14k
+              - generic "stars" [ref=e115]: ★ 1.1k
+        - link "Skill v2.1.5 Doc Summarizer Turn long documents into structured, skimmable briefs. summarization docs productivity @brevity ↓ 13.3k ★ 980" [ref=e116] [cursor=pointer]:
+          - /url: /a/doc-summarizer
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: ✦
+              - text: Skill
+            - generic [ref=e120]: v2.1.5
+          - heading "Doc Summarizer" [level=3] [ref=e121]
+          - paragraph [ref=e122]: Turn long documents into structured, skimmable briefs.
+          - generic [ref=e123]:
+            - generic [ref=e124]: summarization
+            - generic [ref=e125]: docs
+            - generic [ref=e126]: productivity
+          - generic [ref=e127]:
+            - generic [ref=e128]: "@brevity"
+            - generic [ref=e129]:
+              - generic "downloads" [ref=e130]: ↓ 13.3k
+              - generic "stars" [ref=e131]: ★ 980
+        - link "Skill v1.4.1 Commit Crafter Generate clean, conventional commit messages from a diff. git productivity commits @gitwise ↓ 11.2k ★ 760" [ref=e132] [cursor=pointer]:
+          - /url: /a/commit-crafter
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: ✦
+              - text: Skill
+            - generic [ref=e136]: v1.4.1
+          - heading "Commit Crafter" [level=3] [ref=e137]
+          - paragraph [ref=e138]: Generate clean, conventional commit messages from a diff.
+          - generic [ref=e139]:
+            - generic [ref=e140]: git
+            - generic [ref=e141]: productivity
+            - generic [ref=e142]: commits
+          - generic [ref=e143]:
+            - generic [ref=e144]: "@gitwise"
+            - generic [ref=e145]:
+              - generic "downloads" [ref=e146]: ↓ 11.2k
+              - generic "stars" [ref=e147]: ★ 760
+        - link "Agent v1.8.2 PR Reviewer Autonomous code reviewer that comments inline on your diffs. code-review github quality @octocat ↓ 9.3k ★ 870" [ref=e148] [cursor=pointer]:
+          - /url: /a/pr-reviewer
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: ◆
+              - text: Agent
+            - generic [ref=e152]: v1.8.2
+          - heading "PR Reviewer" [level=3] [ref=e153]
+          - paragraph [ref=e154]: Autonomous code reviewer that comments inline on your diffs.
+          - generic [ref=e155]:
+            - generic [ref=e156]: code-review
+            - generic [ref=e157]: github
+            - generic [ref=e158]: quality
+          - generic [ref=e159]:
+            - generic [ref=e160]: "@octocat"
+            - generic [ref=e161]:
+              - generic "downloads" [ref=e162]: ↓ 9.3k
+              - generic "stars" [ref=e163]: ★ 870
+        - link "MCP v1.1.0 Slack MCP Read channels and post messages through one protocol surface. slack chatops messaging @chatops ↓ 8.1k ★ 590" [ref=e164] [cursor=pointer]:
+          - /url: /a/slack-mcp
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: ⬡
+              - text: MCP
+            - generic [ref=e168]: v1.1.0
+          - heading "Slack MCP" [level=3] [ref=e169]
+          - paragraph [ref=e170]: Read channels and post messages through one protocol surface.
+          - generic [ref=e171]:
+            - generic [ref=e172]: slack
+            - generic [ref=e173]: chatops
+            - generic [ref=e174]: messaging
+          - generic [ref=e175]:
+            - generic [ref=e176]: "@chatops"
+            - generic [ref=e177]:
+              - generic "downloads" [ref=e178]: ↓ 8.1k
+              - generic "stars" [ref=e179]: ★ 590
+        - link "Plugin v1.0.3 Env Doctor Diagnose and fix broken local dev environments. devx environment tooling @devtools ↓ 7.5k ★ 520" [ref=e180] [cursor=pointer]:
+          - /url: /a/env-doctor
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - generic [ref=e183]: ◈
+              - text: Plugin
+            - generic [ref=e184]: v1.0.3
+          - heading "Env Doctor" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Diagnose and fix broken local dev environments.
+          - generic [ref=e187]:
+            - generic [ref=e188]: devx
+            - generic [ref=e189]: environment
+            - generic [ref=e190]: tooling
+          - generic [ref=e191]:
+            - generic [ref=e192]: "@devtools"
+            - generic [ref=e193]:
+              - generic "downloads" [ref=e194]: ↓ 7.5k
+              - generic "stars" [ref=e195]: ★ 520
+        - link "Agent v1.2.7 SQL Migrator Agent Plans and applies schema migrations with rollback safety. database migrations devops @dbops ↓ 6.7k ★ 540" [ref=e196] [cursor=pointer]:
+          - /url: /a/sql-migrator-agent
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]: ◆
+              - text: Agent
+            - generic [ref=e200]: v1.2.7
+          - heading "SQL Migrator Agent" [level=3] [ref=e201]
+          - paragraph [ref=e202]: Plans and applies schema migrations with rollback safety.
+          - generic [ref=e203]:
+            - generic [ref=e204]: database
+            - generic [ref=e205]: migrations
+            - generic [ref=e206]: devops
+          - generic [ref=e207]:
+            - generic [ref=e208]: "@dbops"
+            - generic [ref=e209]:
+              - generic "downloads" [ref=e210]: ↓ 6.7k
+              - generic "stars" [ref=e211]: ★ 540
+        - link "Agent v0.7.3 Threat Modeler Maps attack surface and ranks risks for a codebase. security threat-model audit @redteam ↓ 5k ★ 610" [ref=e212] [cursor=pointer]:
+          - /url: /a/threat-modeler
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - generic [ref=e215]: ◆
+              - text: Agent
+            - generic [ref=e216]: v0.7.3
+          - heading "Threat Modeler" [level=3] [ref=e217]
+          - paragraph [ref=e218]: Maps attack surface and ranks risks for a codebase.
+          - generic [ref=e219]:
+            - generic [ref=e220]: security
+            - generic [ref=e221]: threat-model
+            - generic [ref=e222]: audit
+          - generic [ref=e223]:
+            - generic [ref=e224]: "@redteam"
+            - generic [ref=e225]:
+              - generic "downloads" [ref=e226]: ↓ 5k
+              - generic "stars" [ref=e227]: ★ 610
+        - link "Skill v1.0.0 E2E Test Skill created via API @ci ↓ 0 ★ 0" [ref=e228] [cursor=pointer]:
+          - /url: /a/e2e-test-skill
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - generic [ref=e231]: ✦
+              - text: Skill
+            - generic [ref=e232]: v1.0.0
+          - heading "E2E Test Skill" [level=3] [ref=e233]
+          - paragraph [ref=e234]: created via API
+          - generic [ref=e235]:
+            - generic [ref=e236]: "@ci"
+            - generic [ref=e237]:
+              - generic "downloads" [ref=e238]: ↓ 0
+              - generic "stars" [ref=e239]: ★ 0
+  - contentinfo [ref=e240]: ArtifactHub · a local-first AI artifact marketplace · backed by SQLite
+  - alert [ref=e241]

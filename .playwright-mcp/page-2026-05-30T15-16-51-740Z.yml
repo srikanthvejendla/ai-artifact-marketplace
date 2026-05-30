@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "▲ ArtifactHub" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: ▲
+        - generic [ref=e6]: ArtifactHub
+      - navigation [ref=e7]:
+        - link "Browse" [ref=e8] [cursor=pointer]:
+          - /url: /?type=skill
+        - link "Publish" [ref=e9] [cursor=pointer]:
+          - /url: /submit
+        - button "Toggle dark mode" [ref=e10]: ☀️
+  - main [ref=e11]:
+    - article [ref=e12]:
+      - link "← Back to marketplace" [ref=e13] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e17]:
+              - generic [ref=e18]: ✦
+              - text: Skill
+            - generic [ref=e19]: v2.3.0
+          - heading "Deep Research" [level=1] [ref=e20]
+          - paragraph [ref=e21]: Fan-out web search, verify claims, synthesize a cited report.
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - text: by
+              - generic [ref=e24]: "@anthropic"
+            - generic [ref=e25]: ↓ 18,421 installs
+            - generic [ref=e26]: ★ 1,290
+            - link "Homepage ↗" [ref=e27] [cursor=pointer]:
+              - /url: https://example.com/deep-research
+          - generic [ref=e28]:
+            - heading "About" [level=2] [ref=e29]
+            - paragraph [ref=e30]: A multi-source research skill that decomposes a question, runs parallel web searches, fetches and reads sources, adversarially verifies each claim, and synthesizes a fully cited report. Ideal for due diligence, literature scans, and competitive analysis.
+          - generic [ref=e31]:
+            - heading "Details" [level=2] [ref=e32]
+            - generic [ref=e33]: "# Deep Research Provide a specific question. The skill expands it into sub-questions, searches the web in parallel, cross-checks sources, and returns a report with inline citations."
+          - generic [ref=e34]:
+            - heading "Tags" [level=2] [ref=e35]
+            - generic [ref=e36]:
+              - link "#research" [ref=e37] [cursor=pointer]:
+                - /url: /?q=research
+              - link "#web" [ref=e38] [cursor=pointer]:
+                - /url: /?q=web
+              - link "#citations" [ref=e39] [cursor=pointer]:
+                - /url: /?q=citations
+              - link "#verification" [ref=e40] [cursor=pointer]:
+                - /url: /?q=verification
+        - complementary [ref=e41]:
+          - generic [ref=e42]:
+            - heading "Install" [level=2] [ref=e43]
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - generic [ref=e46]: $
+                - code [ref=e47]: npx artifact add skill deep-research
+              - button "Install — copy command" [ref=e48]
+              - paragraph [ref=e49]: 18,421 installs
+            - paragraph [ref=e50]: Reusable capabilities that extend what an AI assistant can do.
+      - generic [ref=e51]:
+        - heading "More Skills" [level=2] [ref=e52]
+        - generic [ref=e53]:
+          - link "Skill v2.1.5 Doc Summarizer Turn long documents into structured, skimmable briefs. summarization docs productivity @brevity ↓ 13.3k ★ 980" [ref=e54] [cursor=pointer]:
+            - /url: /a/doc-summarizer
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - generic [ref=e57]: ✦
+                - text: Skill
+              - generic [ref=e58]: v2.1.5
+            - heading "Doc Summarizer" [level=3] [ref=e59]
+            - paragraph [ref=e60]: Turn long documents into structured, skimmable briefs.
+            - generic [ref=e61]:
+              - generic [ref=e62]: summarization
+              - generic [ref=e63]: docs
+              - generic [ref=e64]: productivity
+            - generic [ref=e65]:
+              - generic [ref=e66]: "@brevity"
+              - generic [ref=e67]:
+                - generic "downloads" [ref=e68]: ↓ 13.3k
+                - generic "stars" [ref=e69]: ★ 980
+          - link "Skill v1.4.1 Commit Crafter Generate clean, conventional commit messages from a diff. git productivity commits @gitwise ↓ 11.2k ★ 760" [ref=e70] [cursor=pointer]:
+            - /url: /a/commit-crafter
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: ✦
+                - text: Skill
+              - generic [ref=e74]: v1.4.1
+            - heading "Commit Crafter" [level=3] [ref=e75]
+            - paragraph [ref=e76]: Generate clean, conventional commit messages from a diff.
+            - generic [ref=e77]:
+              - generic [ref=e78]: git
+              - generic [ref=e79]: productivity
+              - generic [ref=e80]: commits
+            - generic [ref=e81]:
+              - generic [ref=e82]: "@gitwise"
+              - generic [ref=e83]:
+                - generic "downloads" [ref=e84]: ↓ 11.2k
+                - generic "stars" [ref=e85]: ★ 760
+          - link "Skill v1.0.0 E2E Test Skill created via API @ci ↓ 0 ★ 0" [ref=e86] [cursor=pointer]:
+            - /url: /a/e2e-test-skill
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - generic [ref=e89]: ✦
+                - text: Skill
+              - generic [ref=e90]: v1.0.0
+            - heading "E2E Test Skill" [level=3] [ref=e91]
+            - paragraph [ref=e92]: created via API
+            - generic [ref=e93]:
+              - generic [ref=e94]: "@ci"
+              - generic [ref=e95]:
+                - generic "downloads" [ref=e96]: ↓ 0
+                - generic "stars" [ref=e97]: ★ 0
+  - contentinfo [ref=e98]: ArtifactHub · a local-first AI artifact marketplace · backed by SQLite
+  - alert [ref=e99]
