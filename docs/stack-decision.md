@@ -27,8 +27,9 @@ Best fit: the marketplace is inherently dynamic (publish, search, counters) and 
 - `POST /api/artifacts/:slug/install` → increments downloads, returns count
 
 ## Hosting
-Production build → port 8001 → **Tailscale Serve** → `https://mac-studio.therandomdotdev.ts.net/`
-(tailnet-wide HTTPS; flip to Tailscale Funnel for public internet once Funnel is enabled on the
+Production build → port 8001 → **Cloudflare quick tunnel** (`cloudflared tunnel --url
+http://localhost:8001`) → public `https://*.trycloudflare.com` URL. Chosen because it needs no
+account and no per-tailnet admin enablement (Tailscale Funnel/Serve were both disabled on this
 tailnet). SQLite file at `data/marketplace.db`. Source: https://github.com/srikanthvejendla/ai-artifact-marketplace
 
 ## Risks & mitigations

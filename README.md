@@ -11,17 +11,21 @@ and publish your own — all backed by a **local SQLite database**.
 | | |
 |---|---|
 | **Source repo** | https://github.com/srikanthvejendla/ai-artifact-marketplace |
-| **Live URL** | https://mac-studio.therandomdotdev.ts.net/ |
+| **Live URL (public)** | https://introduced-schools-special-portal.trycloudflare.com |
 
-The production build (`pnpm build && pnpm start`) runs on `:8001` and is published over
-HTTPS with **Tailscale Serve** (`tailscale serve --bg --https=443 localhost:8001`).
+The production build (`pnpm build && pnpm start`) runs on `:8001` and is published to the
+public internet via a **Cloudflare quick tunnel** (`cloudflared tunnel --url http://localhost:8001`).
+The app is served from a local machine, so the URL is reachable only while that machine, the
+Next.js server, and the tunnel are all running.
 
-> **Reachability:** the live URL is served over the owner's **tailnet**, so it resolves for
-> any device signed into that Tailscale network (laptop, phone, etc.). To make it reachable
-> from the *public* internet, enable **Tailscale Funnel** once for the tailnet
-> ([admin → Funnel](https://login.tailscale.com/admin/settings/funnel)) and swap `serve` for
-> `funnel`: `tailscale funnel --bg --https=443 localhost:8001`. Either way the app is served
-> from a local machine, so it's up only while that machine and `pnpm start` are running.
+> **Bring it back up / rotate the URL:**
+> ```bash
+> pnpm build && pnpm start                          # serves on :8001
+> cloudflared tunnel --url http://localhost:8001     # prints a fresh https://*.trycloudflare.com URL
+> ```
+> A quick tunnel mints a new random hostname each run. For a stable custom domain, use a named
+> Cloudflare tunnel (requires a Cloudflare account). Tailscale Funnel/Serve are also viable but
+> need a one-time per-tailnet admin enablement.
 
 ![home](artifacts/01-home-dark.png)
 
