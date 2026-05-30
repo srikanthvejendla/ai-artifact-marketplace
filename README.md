@@ -15,7 +15,7 @@ The production build runs locally on `:8001` and is exposed publicly over **Tail
 machine, the URL is reachable only while that machine and the server are running. To bring it
 back up: `pnpm build && pnpm start` then re-run the funnel command.
 
-![home](artifacts/screenshot-home.png)
+![home](artifacts/01-home-dark.png)
 
 ## Features
 
