@@ -27,7 +27,9 @@ Best fit: the marketplace is inherently dynamic (publish, search, counters) and 
 - `POST /api/artifacts/:slug/install` → increments downloads, returns count
 
 ## Hosting
-Production build → port 8001 → `expose_url.sh` → Tailscale URL. SQLite file at `data/marketplace.db`.
+Production build → port 8001 → **Tailscale Serve** → `https://mac-studio.therandomdotdev.ts.net/`
+(tailnet-wide HTTPS; flip to Tailscale Funnel for public internet once Funnel is enabled on the
+tailnet). SQLite file at `data/marketplace.db`. Source: https://github.com/srikanthvejendla/ai-artifact-marketplace
 
 ## Risks & mitigations
 - *Native build of better-sqlite3*: Node 22 prebuilds available → verify on install. Mitigation fallback: `node:sqlite` builtin.

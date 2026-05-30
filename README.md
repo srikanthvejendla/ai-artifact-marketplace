@@ -6,14 +6,22 @@ and publish your own — all backed by a **local SQLite database**.
 
 ![stack](https://img.shields.io/badge/Next.js-15-black) ![db](https://img.shields.io/badge/SQLite-better--sqlite3-blue) ![ts](https://img.shields.io/badge/TypeScript-strict-3178c6)
 
-## 🌐 Live demo
+## 🌐 Live deployment
 
-**https://mac-studio.therandomdotdev.ts.net/**
+| | |
+|---|---|
+| **Source repo** | https://github.com/srikanthvejendla/ai-artifact-marketplace |
+| **Live URL** | https://mac-studio.therandomdotdev.ts.net/ |
 
-The production build runs locally on `:8001` and is exposed publicly over **Tailscale Funnel**
-(`tailscale funnel --bg --https=443 localhost:8001`). Because it's served from a local
-machine, the URL is reachable only while that machine and the server are running. To bring it
-back up: `pnpm build && pnpm start` then re-run the funnel command.
+The production build (`pnpm build && pnpm start`) runs on `:8001` and is published over
+HTTPS with **Tailscale Serve** (`tailscale serve --bg --https=443 localhost:8001`).
+
+> **Reachability:** the live URL is served over the owner's **tailnet**, so it resolves for
+> any device signed into that Tailscale network (laptop, phone, etc.). To make it reachable
+> from the *public* internet, enable **Tailscale Funnel** once for the tailnet
+> ([admin → Funnel](https://login.tailscale.com/admin/settings/funnel)) and swap `serve` for
+> `funnel`: `tailscale funnel --bg --https=443 localhost:8001`. Either way the app is served
+> from a local machine, so it's up only while that machine and `pnpm start` are running.
 
 ![home](artifacts/01-home-dark.png)
 
